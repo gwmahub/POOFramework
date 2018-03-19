@@ -1,0 +1,19 @@
+{
+    "name": "gwma/poo-framework",
+    "description": "Project to create a OOP framework from scratch.",
+    "authors": [
+        {
+            "name": "GWMA",
+            "email": "info@gwma.eu"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "POOFramework\\": "src/POOFramework"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
